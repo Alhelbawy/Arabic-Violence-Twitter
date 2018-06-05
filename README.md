@@ -1,14 +1,14 @@
 # Arabic-Violence-Twitter
 Annotated corpus of Arabic tweets which mention a violence act. It is based on a collection on 20,000 tweets which is manually annotated using crowdflower platform.
 
-#Data collection
+# Data collection
 As we are only interested in Arabic tweets, we use the Twitter language filter to receive only Arabic tweets. But there are still millions of tweets in Arabic, a small fraction of which may mention some kind of violence. So, further filters are required to find an initial set of tweets that may mention some kind of violence to use for manual classification. Two filters for this purpose that we discuss in this Section.
 
 
-##Basic Twitter Filter
+## Basic Twitter Filter
 The first filter uses the Twitter API to receive Arabic tweets which contain any violence words. We prepared a word list containing 237 violence words in Arabic. We used the different stems of the word because the Twitter filter does not have an Arabic morphological analyser. So the different stems of the word are added manually to the list. The following examples show different stems of the word kill (قتل, kill),(قاتل, killer),(قتيل, one had been killed), (قتلى, many have been killed), and (مقتل, report killing action).
 
-#Filteration
+# Filteration
 An advanced filter is used to filter out the redundant, emotional, sexual adverts, and short tweets.
 
 #Annotation
@@ -35,7 +35,7 @@ rawAnnotations: This folder includes CrowdFlower annotated tweets. It have been 
 
 mergedAnnotations: This folder contains only one file 'violenceArabicTweets.json' where all annotations are merged together and every tweet in our dataset have only one entry with all annotations. It is saved as a Json file also and the new confidence score is calculated in the same way described in the paper.
 
-#Hint
+# Hint
 According to Twitter T&C, we can not distribute the tweets text, So, we only distribute the Tweet ID and you may need to develop your code to grape these set of tweets by ID.
 
 
