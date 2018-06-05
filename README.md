@@ -39,11 +39,11 @@ mergedAnnotations: This folder contains only one file 'violenceArabicTweets.json
 According to Twitter T&C, we can not distribute the tweets text, So, we only distribute the Tweet ID and you may need to develop your code to grape these set of tweets by ID.
 
 
-## Citation
+# Citation
 ```
 Alhelbawy Ayman, Massimo Poesio, and Udo Kruschwitz. "Towards a Corpus of Violence Acts in Arabic Social Media." LREC. 2016.
 ```
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
