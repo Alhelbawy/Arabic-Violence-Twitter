@@ -11,7 +11,7 @@ The first filter uses the Twitter API to receive Arabic tweets which contain any
 # Filteration
 An advanced filter is used to filter out the redundant, emotional, sexual adverts, and short tweets.
 
-#Annotation
+# Annotation
 Every tweet was classified by at least five annotators into one of eight classes i.e. Crime, Accident, Crisis, Conflict, Human Rights Abuse, Violence, Opinion, or other.
 
 
